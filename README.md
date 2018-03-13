@@ -26,3 +26,11 @@ Before running the tests make sure you are serving the app via `ng serve`.
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+
+#Test App 
+>> https://www.themoviedb.org
+
+>> API Key (v3 auth) :: 7c9acef8c16f26255de8d2efa354a087
+>> API Read Access Token (v4 auth) :: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI3YzlhY2VmOGMxNmYyNjI1NWRlOGQyZWZhMzU0YTA4NyIsInN1YiI6IjVhYTI1NWZlYzNhMzY4MjljNTAwOTExMSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.1nOJIcH85SdyVJNjuKaPbY_M8naAtL2Uof1whBHM0zc
+>> Example API Request :: https://api.themoviedb.org/3/movie/550?api_key=7c9acef8c16f26255de8d2efa354a087
