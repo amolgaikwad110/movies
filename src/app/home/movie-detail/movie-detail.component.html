@@ -1,7 +1,7 @@
 
 <div class="container">
 
-<div class="row">
+<div class="row" *ngIf="movieDetail">
   <div class="col-xs-12">
       <p><button type="button" (click)="goBack()" class="btn btn-primary">Go Back</button></p>
       <h2>Movie Name ==> {{movieDetail.original_title}}  </h2>
