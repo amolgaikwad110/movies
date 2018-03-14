@@ -11,12 +11,12 @@ import 'rxjs/add/operator/map';
 export class MovieDetailComponent implements OnInit {
   deptId;
   url = 'https://api.themoviedb.org/3/movie/popular?api_key=7c9acef8c16f26255de8d2efa354a087&language=en-US&page=1';
-  movies : any[] ;
+  movies ;
   movieImagePrefix='https://image.tmdb.org/t/p/w185_and_h278_bestv2';
   constructor(private route : ActivatedRoute , private http:Http , private _location: Location) { 
     // this.route.params.subscribe( params => console.log(params) )
   }
-  movieDetail;
+  movieDetail = { };
   ngOnInit() {
     let id = this.route.snapshot.paramMap.get('id');
     // console.log(id);

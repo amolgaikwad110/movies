@@ -18,8 +18,8 @@ export class HeaderComponent implements OnInit {
   }
 
   onLogout(){
-    this.router.navigate(['']);
+    this.router.navigate(['/login']);
     
-    console.log(this.user.getloggedIn())
+    //console.log(this.user.getloggedIn())
   }
 }
